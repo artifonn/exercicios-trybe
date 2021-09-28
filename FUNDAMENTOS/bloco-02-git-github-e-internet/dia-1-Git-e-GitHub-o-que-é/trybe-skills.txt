@@ -3,5 +3,7 @@
 - Unix
 - Bash
 - Git
+- javaScript
+- React
 - HTML
 - CSS
