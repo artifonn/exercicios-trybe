@@ -1,4 +1,4 @@
-    HTML & CSS - Sletores e posicionamento 
+    HTML & CSS - Seletores e posicionamento 
 
         Objetivos da Aula
 
