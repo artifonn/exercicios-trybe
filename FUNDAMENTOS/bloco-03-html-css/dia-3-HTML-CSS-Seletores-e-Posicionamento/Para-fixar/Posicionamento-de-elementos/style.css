@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.super-mario {
+    width: 200px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 40%;
+    z-index: 1;
+  }
+  
+  .goomba {
+    width: 100px;
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 25%;
+    z-index: 3;
+  }
+  
+  .baloon {
+    position: absolute;
+    margin-left: 20%;
+    z-index: 2;
+  }
+  
+  .speach {
+    font-size: 25px;
+    position: absolute;
+    z-index: 4;
+  }
+  
+  .bowser {
+    width: 200px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 60%;
+    z-index: 5;
+  }
+
+
+  p {
+      margin-left: 22%;
+      margin-top: 70px;
+  }
