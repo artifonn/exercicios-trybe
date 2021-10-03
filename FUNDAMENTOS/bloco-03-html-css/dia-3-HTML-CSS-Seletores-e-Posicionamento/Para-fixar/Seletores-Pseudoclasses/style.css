@@ -1,0 +1,31 @@
+h1, p {
+    text-align: center;
+    font-family: sans-serif;
+}
+p {
+    font-size: 18px;
+    padding:  25px;
+}
+
+ol li:hover a {
+    background-color: #2711b8;
+    color: #fff;
+
+}
+
+ol li:active a{
+    color: #1088b3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+ol ,
+li a {
+    text-decoration: none;
+    color: #000;
+}
+
+ol, ul {
+    list-style: none;
+    line-height: 1.8em;
+}
