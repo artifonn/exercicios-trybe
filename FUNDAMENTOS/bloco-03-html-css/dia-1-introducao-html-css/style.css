@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --bg-color: #151515;
+  --font-color: #3E06FE;
+  --color-white: #ffffff;
+  --color-shadow: #a9a8a8;
+  --font-principal: 'Poppins', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background-color:var(--color-white);
+}
+
+.menu a {
+  float:right;
+  border: solid 1px var(--bg-color);
+  padding: 5px 20px;
+  border-radius: 6px;
+  font-size: 0.6em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: var(--bg-color);
+  font-family: var(--font-principal);
+  text-transform: capitalize;
+  text-decoration: none;
+  margin: 5px 30px;
+}
+
+.menu a:hover{
+  background-color: var(--font-color);
+  color: var(--bg-color);
+  border-color: var(--bg-color);
+  font-weight: 500;
+  color: var(--color-shadow);
+  font-weight: 500;
+  margin: 5px 30px;
+}
+
+.menu a:active {
+  color: var(--color-white);
+  border-color: var(--bg-color);
+
+}
+
+.botao {
+  width: 100%;
+  display: inline-block;
+}
+
+.lets-go {
+  border: solid 1px var(--color-white);
+  padding: 5px 20px;
+  border-radius: 6px;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: var(--color-white);
+  text-decoration: none;
+  font-family: var(--font-principal);
+  text-transform: capitalize;
+  display: inline-block;
+  margin-bottom: 10%;
+}
+
+
+.lets-go:hover {
+  background-color: var(--font-color);
+  color: var(--color-shadow);
+  border-color: var(--color-white);
+  font-weight: 500;
+}
+
+.lets-go:active{
+  color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+
+.boas-vindas {
+  background: var(--bg-color);
+  width: 100%;
+}
+
+.whats {
+  height: 100vh;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.titulo {
+  padding-top: 15%;
+  font-size: 6em;
+  color: var(--font-color);
+  font-family: var(--font-principal);
+}
+
+.bem-vindo {
+  color: var(--color-white);
+  font-size: 2em;
+  font-family: var(--font-principal);
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-right: 70px;
+  margin-top: -35px;
+}
+
+
+.emoji {
+  float: right;
+  width: 700px;
+  margin-top: -30px;
+}
+
+.principal {
+  display: inline-flex;
+  background-color: var(--font-color);
+  width: 100%;
+  height: 120vh;
+  padding-bottom: 50px;
+}
+ /* estilos barra esquerda */
+.um {
+    width: 50%;
+    height: 100vh;
+}
+    /* configurações dos icones do github e linkedin */
+.links-web {
+  width: 100%;
+  height: 60px;
+  color: var(--color-white);
+  padding: 15px;
+  margin-top: -100px;
+
+}
+
+.icones {
+  margin-left: 40%;
+  margin-top: -80px;
+}
+
+.icones p {
+  display: inline;
+  margin-top: -45px;
+  font-size: 1.5em;
+  font-family: var(--font-principal);
+}
+
+.links-web a {
+  font-size: 1.5em;
+  padding: 10px;
+  color: var(--color-white);
+}
+
+.links-web a:hover{
+  color: var(--bg-color);
+}
+
+
+.foto-links {
+  width: 100%;
+  height: 50%;
+}
+
+.foto {
+  width: 60%;
+  display: inline-block;
+  margin: 40%  25%;
+  border-radius: 5%;
+}
+
+.forma {
+  width: 340px;
+  height: 290px;
+  float: left;
+  margin-left: 28%;
+  margin-top: -105%;
+  border-radius: 5%;
+  border: solid var(--color-white) 4px;
+}
+
+.dois {
+  width: 70%;
+  height: 90vh;
+  background: var(--bg-color);
+  margin: auto;
+  float: right;
+}
+
+#bio {
+  text-align: left;
+  margin: 0 25%;
+
+}
+
+.quem-sou {
+  display: inline-block;
+  margin-top: 30%;
+  font-size: 2.8em;
+  color: var(--color-white);
+  font-family: var(--font-principal);
+  letter-spacing: 2px;
+}
+
+.texto {
+  line-height: 1.8em;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+  color: var(--color-white);
+  font-family: var(--font-principal);
+}
+
+.botao-hb {
+  float:right;
+  border: solid 1px var(--color-white);
+  padding: 5px 20px;
+  border-radius: 6px;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: var(--color-white);
+  font-family: var(--font-principal);
+  text-transform: capitalize;
+  text-decoration: none;
+  margin: 50px 30px;
+}
+
+.botao-hb:hover {
+  background-color: var(--color-white);
+  color: var(--bg-color);
+  border-color: var(--color-white);
+  font-weight: 500;
+  color: var(--font-color);
+  font-weight: 500;
+}
+
+.botao-hb:active {
+  color: var(--bg-color);
+}
+
+#pg-habilidades {
+  padding: 10%;
+  width: 100%;
+  background-color: var(--bg-color);
+  width: 100%;
+  height: 120vh;
+}
+
+h5 {
+  text-align: center;
+  font-size: 30px;
+  font-family: var(--font-principal);
+  color: var(--color-white);
+  letter-spacing: 3px;
+  margin: 60px 0;
+}
+
+.titulo-habilidades {
+  float: left;
+  width: 50%;
+  text-align: justify;
+}
+
+.titulo-habilidades h4,
+#pg-habilidades h4 {
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  font-family: var(--font-principal);
+  font-size: 1.2em;
+  color: var(--font-color);
+  letter-spacing: 2px;
+  padding: 60px 25%;
+}
+
+#pg-habilidades ul,
+.destaque ol {
+  color: var(--color-white);
+  font-family: var(--font-principal);
+  list-style: none;
+  line-height: 1.8em;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  padding-left: 25%;
+}
+
+.rodape {
+  height: 40px;
+  background-color: var(--font-color);
+  font-family: var(--font-principal);
+  color: var(--bg-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.rodape p {
+  padding-top: 20px;
+}
+.trybe {
+  font-family: sans-serif;
+  color: var(--color-white);
+}
+
+.github {
+  font-family: sans-serif;
+  color: var(--color-white);
+}
+
+.informacoes a {
+  text-decoration: none;
+  font-size: 12px;
+}
