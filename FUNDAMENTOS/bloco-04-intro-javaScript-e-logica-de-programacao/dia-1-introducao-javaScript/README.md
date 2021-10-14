@@ -1,6 +1,7 @@
 O que aprendemos na aula? 
 
 Aqui você vai aprender sobre a linguagem de programação JavaScript . 🚀🚀🚀
+
 Para isso, dividimos o conteúdo em cinco partes:
 
 
